@@ -1,50 +1,86 @@
-import React, { useState, useEffect } from 'react';
-import './Carousel.css'; // Add your own styles
-import backgroundImageUrl from "../../../assets/landingBackground.jpeg";
-
-const Carousel1 = () => {
-  const [activeCard, setActiveCard] = useState(0);
-
-  const cards = [
-    { id: 1, title: 'Card 1', content: 'Content for Card 1' },
-    { id: 2, title: 'Card 2', content: 'Content for Card 2' },
-    { id: 3, title: 'Card 3', content: 'Content for Card 3' },
-  ];
-
-  const nextCard = () => {
-    setActiveCard((prevCard) => (prevCard + 1) % cards.length);
-  };
-
-  const prevCard = () => {
-    setActiveCard((prevCard) => (prevCard - 1 + cards.length) % cards.length);
-  };
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextCard();
-    }, 3000); // Change the interval time as needed (e.g., every 3 seconds)
-    return () => clearInterval(interval);
-  }, []);
+import { useState } from 'react';
+import ReactSimplyCarousel from 'react-simply-carousel';
+import h2 from "../../../assets/h2.jpeg"
+function ReactSimplyCarouselExample() {
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
   return (
-    <div className="carousel-container">
-      <button onClick={prevCard}>Previous</button>
-      <div className="cards-container">
-        {cards.map((card, index) => (
-          <div
-            key={card.id}
-            className={`card ${index === activeCard ? 'active' : ''}`}
-          >
-            <img className='packageImage' src="backgroundImageUrl" alt='error'>
-            </img>
-            <h2>{card.title}</h2>
-            <p>{card.content}</p>
-          </div>
-        ))}
-      </div>
-      <button onClick={nextCard}>Next</button>
+    <div>
+      <ReactSimplyCarousel
+        activeSlideIndex={activeSlideIndex}
+        onRequestChange={setActiveSlideIndex}
+        itemsToShow={1}
+        itemsToScroll={1}
+        autoplay={true}
+        // autoplaySpeed={2000}
+        autoplayDirection='right'
+        autoplayDelay={10}
+        dotsNav={true} 
+        forwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`>`}</span>,
+        }}
+        backwardBtnProps={{
+          //here you can also pass className, or any other button element attributes
+          style: {
+            alignSelf: 'center',
+            background: 'black',
+            border: 'none',
+            borderRadius: '50%',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '20px',
+            height: 30,
+            lineHeight: 1,
+            textAlign: 'center',
+            width: 30,
+          },
+          children: <span>{`<`}</span>,
+        }}
+        responsiveProps={[
+          {
+            itemsToShow: 1,
+            itemsToScroll: 1,
+            minWidth: "100%",
+          },
+        ]}
+        speed={400}
+        easing="linear"
+      >
+        {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
+        <div style={{ width: "100vw", height: 700, background: '#ff80ed' }}>
+        <img style={{width:"100vw" , height:"100vh"}} src={h2}></img>
+        </div>
+        <div style={{ width: "100vw", height: 700, background: '#065535' }}>
+        <img style={{width:"100vw" , height:"100vh"}} src={h2}></img>
+
+        </div>
+        <div style={{ width: "100vw", height: 700, background: '#000000' }}>
+        <img style={{width:"100vw" , height:"100vh"}} src={h2}></img>
+
+        </div>
+        <div style={{ width: 
+          '100vw', height: 700, background: '#133337' }}>
+                <img style={{width:"100vw" , height:"100vh"}} src={h2}></img>
+
+        </div>
+      
+      </ReactSimplyCarousel>
     </div>
   );
-};
+}
 
-export default Carousel1;
+export default ReactSimplyCarouselExample;

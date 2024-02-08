@@ -1,9 +1,8 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import SplashScreen from './/component/Organisms/SplashScreen/SplashScreen';
 import AllRoutes from './/routes/publicRoutes/AllRoutes';
 
-
+import "./App.css";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -24,15 +23,15 @@ const App = () => {
 
   return (
     <div>
-      {loading ? (
+      {/* {loading ? (
         <SplashScreen />
-      ) : (
-        // Your main application content goes here
-        <div>
+      ) : ( */}
+      
+        <div className='mainBackground'>
         <AllRoutes/>
           {/* Add the rest of your app components */}
         </div>
-      )}
+      {/* )} */}
     </div>
   );
 };

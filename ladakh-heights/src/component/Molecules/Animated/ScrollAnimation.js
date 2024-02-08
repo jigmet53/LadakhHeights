@@ -2,7 +2,7 @@
 import React from 'react';
 // import { useSpring, animated } from 'react-spring';
 // import { useSpring, animated } from '@react-spring/web'
-import { animated, useSpring } from '@react-spring/web'
+import { useSpring, animated } from '@react-spring/web';
 
 const ScrollAnimation = ({ children }) => {
   const props = useSpring({

@@ -1,0 +1,206 @@
+.HealthAdvisorBanner1 {
+  height: 24vw;
+  border-radius: 12px;
+}
+.HealthAdvisorBannerMain1 {
+  width: 59vw;
+  height: 24vw;
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.HealthAdvisorMainContainer {
+  display: grid;
+  grid-template-columns: 63vw 37vw;
+  padding-bottom: 6vw;
+}
+.HealthAdvisorMainSlider {
+  width: 100%;
+  height: 24vw;
+  border-radius: 12px;
+}
+
+.HealthAdvisorMainSliderImage {
+  width: 59vw;
+  height: 24vw;
+  border-radius: 12px;
+}
+.HealthAdvisorMainSliderImagetypec {
+  width: 100%;
+  height: 24vw;
+  border-radius: 12px;
+}
+.HealthAdvisorGridSecondContainer {
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw;
+  margin-top: 3.3vw;
+  margin-bottom: 3vw;
+}
+.AdvisorGridSecondContainer {
+  padding: 1vw;
+  width: 19.8vw;
+  height: 6.8vw;
+  color: #a53f2b;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  font-size: var(--globalFontSize24);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* .AdvisorGridSecondContainer:hover {
+  transform: scale(1.1);
+} */
+.HealthAdvisorForm {
+  border: 2px solid var(--globalColorHeader);
+  margin-top: 6vw;
+  margin-right: 2vw;
+  border-radius: 12px;
+}
+.HealthAdvisorFormimage {
+  position: absolute;
+  transform: translate(140%, -50%);
+  z-index: 10;
+  width: 9.2vw;
+  height: 9.2vw;
+}
+.HealthAdvisorFormHeading {
+  color: var(--globalColorSubMainHeading);
+  align-items: center;
+  font-size: var(--globalFontSize24);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-top: 6vw;
+}
+.HealthAdvisorFormList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+}
+.HealthAdvisorFormListsubHeading {
+  color: var(--globalColorHeader);
+  font-size: var(--globalFontSize20);
+}
+.HealthAdvisorInput {
+  border: 1px solid #b0aeae;
+  padding: 0.6vw;
+  border-radius: 4px;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+  font-size: var(--globalFontSize20);
+}
+.HealthAdvisorBtn {
+  background-color: var(--globalColorHeader);
+  color: #fff;
+  padding: 1vw 10vw 1vw 10vw;
+  font-size: var(--globalFontSize20);
+  border-radius: 4px;
+}
+.HealthAdvisorButton {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-bottom: 2vw;
+}
+.HealthAdvisorParaText {
+  font-size: var(--globalFontSize16);
+}
+.AdvisorerrorMessageValidation {
+  color: red;
+  font-size: var(--globalFontSize20);
+  margin-top: -0.2vw;
+}
+
+@media screen and (max-width: 600px) {
+  .HealthAdvisorMainSliderImage {
+    width: 98vw;
+    height: 49vw;
+  }
+  .HealthAdvisorMainSliderImagetypec{
+    width: 98vw;
+    height: 49vw;
+  }
+  .HealthAdvisorMainSlider {
+    width: 100%;
+    height: 49vw;
+    border: 1px solid #adaaaa;
+    border-radius: 12px;
+  }
+  .HealthAdvisorBannerMain1 {
+    width: 98vw;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 1vw;
+  }
+  .HealthAdvisorGridSecondContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin-left: 0.5rem; */
+    /* margin-right: 0.5rem; */
+    grid-gap: 2vw;
+    margin-top: 9.3vw;
+  }
+  .AdvisorGridSecondContainer {
+    width: 44vw;
+    height: 13vw;
+    font-size: var(--globalFontSizeMobile16);
+    color: #a53f2b;
+    transition: none;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+  }
+  .AdvisorGridSecondContainer:hover {
+    transform: none;
+  }
+  .HealthAdvisorForm {
+    margin-top: 4.87rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .HealthAdvisorFormimage {
+    position: absolute;
+    transform: translate(84%, -50%);
+    width: 34.2vw;
+    height: 7.5rem;
+  }
+  .HealthAdvisorFormHeading {
+    font-size: var(--globalFontSizeMobile20);
+    margin-top: 17vw;
+  }
+  .HealthAdvisorInput {
+    height: 10vw;
+    font-size: var(--globalFontSizeMobile20);
+    margin-right: 5vw;
+  }
+  .HealthAdvisorFormList {
+    margin-left: 0.7rem;
+  }
+  .AdvisorerrorMessageValidation {
+    color: red;
+    font-size: var(--globalFontSizeMobile16);
+  }
+  .HealthAdvisorParaText {
+    font-size: 0.875rem;
+    font-size: 0.75rem;
+  }
+  .HealthAdvisorBtn {
+    background-color: var(--globalColorHeader);
+    color: #fff;
+    width: 87vw;
+    padding: 2vw 16vw 2vw 16vw;
+    font-size: var(--globalFontSizeMobile20);
+    border-radius: 4px;
+  }
+  .HealthAdvisorFormListsubHeading {
+    color: var(--globalColorHeader);
+    font-size: var(--globalFontSizeMobile20);
+  }
+  .HealthAdvisorButton {
+    margin-bottom: 6vw;
+  }
+}

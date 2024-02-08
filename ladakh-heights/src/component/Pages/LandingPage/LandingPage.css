@@ -1,14 +1,16 @@
 .backgroundImageBody {
   height: 30%;
   width: 100%;
+  background-color: black;
 }
 .background-containerLanding {
   /* position: fixed; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url("../../../assets/h3.jpeg");
+  /* background-image: url("../../../assets/h3.jpeg"); */
   background-size: 100% 100%;
   background-position: center top;
   /* display: flex; */
@@ -19,7 +21,18 @@
   /* You can add more styling properties as needed */
 }
 
+.img-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  /* backgroundColor: 'rgba(0, 0, 0, 0.6)' */
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(255, 255, 255, 1) 100%); */
+}
 .landingPageBody {
+  /* background-color: black; */
   /* width: 100%; */
 }
 
@@ -30,6 +43,7 @@
 
 .landingBackgroundHeading {
   color: white;
+  z-index: 9999;
   /* font-weight: 600; */
   font-size: 18px;
   text-align: center;
@@ -51,7 +65,7 @@
 
 .linkCss {
   text-decoration: none;
-  color: white;
+  color: rgba(173,133,77,1);
   white-space: nowrap;
 }
 
@@ -66,4 +80,12 @@
   color: white;
   background-color: transparent;
 
+}
+
+.toolBarMainBody{
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }

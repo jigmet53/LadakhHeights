@@ -1,6 +1,8 @@
 .AboutUsHeading {
   /* padding-left: 1.5em; */
   text-align: center;
+  color: white;
+  z-index: 999;
   /* width: 20%; */
   /* background-color: yellowgreen; */
   padding-top: 1em;
@@ -8,18 +10,19 @@
 .AboutUsHeading p {
   color: #44576a;
   font-family: "Rubik";
+  z-index: 999;
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 1.5vw;
   line-height: 150%;
   text-align: center;
   margin-left: 3.8vw;
   position: none;
-  width: 6.6875em;
+  /* width: 6.6875em; */
 }
 .AboutUsHeadingImage {
   width: 100vw;
-  margin-top: 2vw;
+  /* margin-top: 2vw; */
   height: 17vw;
 }
 
@@ -28,6 +31,7 @@
   display: flex;
   justify-content: center;
   margin-top: 5vw;
+  z-index: 999;
   font-family: var(--globalFont);
   font-style: normal;
 
@@ -981,3 +985,109 @@
   border-radius: 16px;
   background: rgb(64 123 255 / 50%);
 }
+
+
+
+
+
+
+.landingSecondPageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.landingSecondPagePic {
+  padding-left: 2vw;
+  padding-top: 10vw;
+  z-index: 999;
+  width: 40vw;
+  height: 20vw;
+}
+
+.landingSecondPagePic2 {
+  padding-left: 8vw;
+  margin-top: -10vw;
+
+  /* padding-top: -10vw; */
+  width: 30vw;
+  height: 15vw;
+}
+
+.landingSecondPageHeading {
+  font-size: 28px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: left;
+  text-align: left;
+}
+.landingSecondPageSubHeading1 {
+  font-size: 18px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: left;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  text-align: left;
+}
+.landingSecondPageSubHeading2 {
+  font-size: 24px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  text-align: left;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  padding-top: 2vw;
+}
+
+.landingSecondPageSubHeading3 {
+  font-size: 14px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  text-align: left;
+  padding-top: 2vw;
+  padding-bottom: 8vw;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.landingSecondPageContent {
+  font-size: 18px;
+  padding-top: 3vw;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  color: black;
+  padding-right: 4vw;
+  text-align:left;
+}
+
+.aboutUsContentBody {
+  /* background-color: black; */
+  padding-top: 5vw;
+  padding-left: 7vw;
+  padding-right: 3vw;
+}
+
+.aboutUsPageImg1 {
+  z-index: 99;
+  /* position: absolute; */
+  width: 38vw;
+  height: 45vw;
+  /* left: 0px; */
+  /* top: 953px; */
+  margin-top: 4vw;
+  margin-left: 4vw;
+  border-radius: 20px;
+}
+
+.aboutUsPageImg2 {
+    /* position: absolute; */
+    width: 20vw;
+    height: 30vw;
+    margin-left: 32vw;
+    /* left: 0px; */
+    /* top: 953px; */
+    margin-top: -37vw;
+    border-radius: 20px;
+}
+

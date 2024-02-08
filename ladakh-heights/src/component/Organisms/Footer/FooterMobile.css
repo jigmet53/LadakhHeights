@@ -1,0 +1,154 @@
+.footerMobile {
+  display: flex;
+  flex-direction: column;
+  background: #eeeeee;
+  padding-left: 1.4375em;
+  padding-top: 1em;
+}
+
+.upperChild2FooterMobile {
+  margin-top: 1em;
+  width: 50vw;
+}
+
+.upperChild2FooterMobile p {
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: var(--globalColorHeader);
+}
+
+.upperChild2FooterMobile ol {
+  min-width: 90vw;
+  margin-top: 1em;
+}
+.upperChild2FooterMobile li {
+  list-style: none;
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #1d2334;
+  padding-top: 1em;
+}
+
+.upperChild4Mobile {
+  margin-right: 4.8125em;
+}
+
+.upperChild4DescriptionMobile span {
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  color: #1d2334;
+}
+
+.emailInputMobile {
+  margin-top: 1em;
+  display: flex;
+  min-width: 80%;
+}
+.upperChild4Heading {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--globalColorHeader);
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.emailInputMobile input {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  border: none;
+  min-width: 100%;
+  background: #f3f0f0;
+  border-radius: 0.37em;
+  padding-left: 1.3em;
+}
+
+.signupFooterMobile {
+  margin-top: 1.5em;
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  width: 100%;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--globalColorHeader);
+  border-radius: 0.37em;
+  border: 1px solid var(--globalColorHeader);
+  color: #ffffff;
+}
+
+.signupFooterMobile img {
+  padding-right: 3%;
+}
+
+.upperChild1Mobile {
+  margin-top: 1.8125em;
+}
+
+.logoImageMobile {
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+.logoImageMobile img {
+  max-width: 7.8em;
+  max-height: 2.3em;
+}
+
+.addressFooterMobile {
+  margin-top: 1.75em;
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #1d2334;
+}
+
+.socialmediaContactMobile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4%;
+  margin-bottom: 0.5em;
+}
+
+.downFooterMobile {
+  border-top: 1px solid #8e8e8e;
+  display: flex;
+  gap: 1%;
+  margin-top: 1.5625em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.downFooterMobile .copyrightText {
+  display: flex;
+  align-items: center;
+  color: #1d2334;
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.downFooter .copyrightSign {
+  display: flex;
+  align-items: center;
+}
+.footerContact {
+  width: 95%;
+}

@@ -29,12 +29,12 @@ const Carousel = () => {
     dots: true,
     infinite: true,
     speed: 1300,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplaySpeed: 3000,
     adaptiveHeight: true,
     variableWidth: true,  
-    autoplay: true,  
+    autoplay: false,  
   };
 
   return (
