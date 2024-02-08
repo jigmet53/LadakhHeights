@@ -1,0 +1,43 @@
+.roomAndSuitsBody{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.roomsBodySuit{
+    background-color: #faf8f5;
+
+}
+
+.RoomAndSuitsImage {
+    width: 100vw;
+    margin-top: 5vw;
+    height: 17vw;
+    border-radius: 12px;
+  }
+
+  .roomAndSuitsContentBox{
+    display: flex;
+    /* border-radius: 12px; */
+margin-top: -12vw;
+margin-left: 4vw;
+height: 23vw;
+width: 50vw;
+background-color: white;
+
+
+font-family: "Montserrat",Helvetica,sans-serif;
+  }
+
+  .roomAndSuitsItem{
+    display: flex;
+  }
+  .roomAndSuitsItem1{
+    margin-left: 3vw;
+    display: flex;
+  }
+
+  .hi ::before{
+
+  }
+.text{
+    margin-top: 1vw;
+}

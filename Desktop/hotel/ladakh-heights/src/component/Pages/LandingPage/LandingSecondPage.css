@@ -1,0 +1,98 @@
+.landingSecondPageGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.landingSecondPagePic {
+  padding-left: 2vw;
+  padding-top: 10vw;
+  z-index: 999;
+  width: 40vw;
+  height: 20vw;
+}
+
+.landingSecondPagePic2 {
+  padding-left: 8vw;
+  margin-top: -10vw;
+
+  /* padding-top: -10vw; */
+  width: 30vw;
+  height: 15vw;
+}
+
+.landingSecondPageHeading {
+  font-size: 28px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+.landingSecondPageSubHeading1 {
+  font-size: 18px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  text-align: center;
+}
+.landingSecondPageSubHeading2 {
+  font-size: 24px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  padding-top: 2vw;
+}
+
+.landingSecondPageSubHeading3 {
+  font-size: 14px;
+  color: rgb(136, 108, 15);
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 8vw;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.landingSecondPageContent {
+  font-size: 18px;
+  padding-top: 3vw;
+  font-family: "Montserrat", Helvetica, sans-serif;
+
+  color: black;
+  padding-right: 4vw;
+  text-align: center;
+}
+
+.landingPageContentBody {
+  /* background-color: black; */
+  padding-top: 5vw;
+  padding-left: 8vw;
+}
+
+.landingPageImg1 {
+  z-index: 99;
+  /* position: absolute; */
+  width: 38vw;
+  height: 45vw;
+  /* left: 0px; */
+  /* top: 953px; */
+  margin-top: 4vw;
+  margin-left: 8vw;
+  border-radius: 20px;
+}
+
+.landingPageImg2 {
+  z-index: 99;
+  /* position: absolute; */
+  width: 20vw;
+  height: 30vw;
+  /* left: 0px; */
+  /* top: 953px; */
+  margin-top: -37vw;
+  border-radius: 20px;
+}

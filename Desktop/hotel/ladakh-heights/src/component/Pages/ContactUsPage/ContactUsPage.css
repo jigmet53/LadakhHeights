@@ -1,0 +1,502 @@
+.ContactUsMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+.contactText1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 11vw;
+  line-height: 150%;
+  width: 32%;
+  margin-top: 1vw;
+  text-align: center;
+  color: #7180ad;
+}
+.locationMask {
+  box-shadow: 0px 0px 3px 3px rgb(0 0 0 / 10%);
+  border-radius: 16px;
+  background: rgb(64 123 255 / 50%);
+  height: 60vw;
+  z-index: 9999999999;
+  width: 100%;
+}
+.contactText {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 20vw;
+  line-height: 150%;
+  width: 53%;
+  margin-top: 3vw;
+  /* or 24px */
+
+  text-align: center;
+
+  color: #7180ad;
+}
+.ContactUsPart1 {
+  background-color: #ffffff;
+  height: 40vw;
+  margin-top: 1.2vw;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+.ContactUsPart2 {
+  height: 58vw;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #16ca4c; */
+  margin-top: -3em;
+}
+.ContactUsPart3 {
+  height: 33vw;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.ContactUsHeader {
+  width: 100%;
+  background-color: #ffffff;
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7vw;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--globalColorMainHeading);
+  /* background-color: #44576a; */
+
+  margin-top: 2em;
+}
+
+.ContactUsSubHeader {
+  width: 100%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5vw;
+  line-height: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: #44576a;
+  margin-top: 21px;
+}
+
+.ContactUsSubHeader2 {
+  width: 100%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.5vw;
+  line-height: 150%;
+  text-align: center;
+  margin-top: 11px;
+  color: #44576a;
+}
+
+.ContactUsInforCardsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 31px;
+}
+
+.ContactUsInforCard {
+  width: 27vw;
+  height: 264px;
+  height: 18.5vw;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactUsInforCardInformation {
+  margin-top: 1.6875em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 17vw;
+  font-size: 1vw;
+  color: #44576a;
+}
+
+.WriteToUsWrapper {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+}
+.WriteToUsImageWrapper {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3.3vw;
+}
+.WriteToUsImageWrapper img {
+  width: 32vw;
+  height: 27vw;
+}
+.WriteToUsForm {
+  width: 53vw;
+  height: 37vw;
+}
+.WriteToUsForm form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.WriteToUsFormRow {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.messageArea {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageArea label {
+  width: 93%;
+  background: #f3f0f0;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  height: 100%;
+  border: hidden;
+}
+.contactUsButton {
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+}
+
+.WriteToUsFormInputFields {
+  width: 45%;
+  height: 80%;
+  background: #f3f0f0;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+
+  border-radius: 6px;
+  border: hidden;
+}
+.WriteToUsFormInputFields1 {
+  height: 3.7vw;
+  width: 24vw;
+  border-radius: 6px;
+  background: #f3f0f0;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.17);
+  border-radius: 6px;
+  padding-left: 1em;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  border: hidden;
+
+  color: #44576a;
+}
+.WriteToUsFormInputMessage {
+  width: 49.7vw;
+  height: 10.8vw;
+  background: #f3f0f0;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 150%;
+  border: hidden;
+
+  color: #8d919f;
+}
+
+.WriteToUsFormSubmitButton {
+  width: 23.2vw;
+  height: 3.2vw;
+  background: var(--globalColorHeader);
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  line-height: 150%;
+  border: hidden;
+  cursor: pointer;
+  color: #ffffff;
+  outline: none !important;
+}
+.contactusvalidation {
+  color: rgb(163, 45, 24);
+  font-size: 1vw;
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+}
+.WriteToUsImage {
+  width: 33rem;
+  height: 23.1875rem;
+}
+
+.ContactUsPart3InfoCard {
+  display: flex;
+}
+
+.ContactUsPart3InfoCardsWrapper {
+  display: flex;
+  justify-content: space-around;
+
+  height: 24vw;
+}
+.ContactUsPart3InfoCard {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ContactUsPart3InfoCard3 {
+  border-left: 2px solid #eeeeee;
+}
+.ContactUsPart3InfoCard2 {
+  border-left: 2px solid #eeeeee;
+}
+.ContactUsHeader3 {
+  font-family: var(--globalFont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7vw;
+  line-height: 150%;
+  padding-left: 1em;
+  color: var(--globalColorMainHeading);
+}
+
+@media screen and (max-width: 600px) {
+  .ContactUsPart1Mobile {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactUsHeaderMobile {
+    background-color: #ffffff;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--globalColorMainHeading);
+    margin-top: 1.875rem;
+  }
+  .ContactUsSubHeader {
+    margin-top: 0.25rem;
+    font-size: 4vw;
+  }
+  .ContactUsInforCardsWrapperMobile {
+    display: grid;
+    margin-top: 1.9375rem;
+    grid-gap: 1.25rem;
+    margin-left: 2.8125rem;
+    margin-right: 2.8125rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+  }
+  .ContactUsInforCardMobile {
+    background: #ffffff;
+
+    height: 16.5rem;
+    box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 10%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactUsInforCardInformationMobile {
+    margin-top: 1.6875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+  }
+  .ContactUsHeader {
+    font-size: 18px;
+  }
+  .ContactUsSubHeader2 {
+    font-size: 20px;
+    line-height: 150%;
+    margin: auto;
+    width: 21.1875rem;
+  }
+  .ContactUsPart2Mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .WriteToUsFormRow {
+    /* height: 15%;
+  width: 80%; */
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+  .WriteToUsFormInputFields1Mobile {
+    width: 18.125rem;
+    height: 2.625rem;
+    border-radius: 6px;
+    background: #f3f0f0;
+    padding-left: 2vw;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    border: hidden;
+    margin-bottom: 1.25rem;
+    /* color: #8D919F; */
+    color: black;
+  }
+  .WriteToUsFormInputFields1Mobile label {
+    /* width: 100%;
+  height: 100%; */
+    border-radius: 6px;
+    background: #f3f0f0;
+    background-color: #16ca4c;
+  }
+  .WriteToUsFormInputFields1Mobile1 {
+    width: 18.125rem;
+
+    height: 6.625rem;
+    border-radius: 6px;
+    background: #f3f0f0;
+    padding-left: 2vw;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    border: hidden;
+    margin-bottom: 1.25rem;
+    /* color: #8D919F; */
+    color: black;
+  }
+  .WriteToUsFormInputFields1Mobile1 label {
+    /* width: 100%;
+  height: 100%; */
+    border-radius: 6px;
+    background: #f3f0f0;
+    background-color: #16ca4c;
+  }
+  .WriteToUsFormMobile {
+    /* width: 90%; */
+    /* height: 90%; */
+    /* margin-left: 39px; */
+    /* background-color: #19b121; */
+    display: flex;
+    flex-direction: column;
+  }
+  .WriteToUsWrapperMobile {
+    display: flex;
+    justify-content: center;
+  }
+  .WriteToUsFormRowMobile {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* width: 100%; */
+  }
+  .contactUsButtonMobile {
+    /* height: 10%;  */
+    width: 18.125rem;
+    height: 2.625rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+  }
+  .WriteToUsFormSubmitButtonMobile {
+    background: var(--globalColorHeader);
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    border: hidden;
+    padding-left: 6.0625rem;
+    padding-right: 6.0625rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .ContactUsPart3Mobile {
+    /* height: 54vw;
+  width: 90%; */
+    display: flex;
+    flex-direction: column;
+  }
+  .ContactUsHeader3Mobile {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 1em;
+    color: var(--globalColorMainHeading);
+    margin: auto;
+  }
+  .ContactUsHeader3 {
+    margin: auto;
+  }
+  .ContactUsPart3InfoCardsWrapperMobile {
+    display: grid;
+    margin-top: 31px;
+    grid-gap: 50px;
+    margin-left: 2.8125rem;
+    margin-right: 2.8125rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    margin-bottom: 9vw;
+  }
+  .ContactUsPart3InfoCardMobile {
+    /* width: 30vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ContactUsMainy {
+    margin-bottom: 3em;
+  }
+  .contactusvalidation {
+    color: red;
+    font-size: 12px;
+    margin-left: 0.2rem;
+    margin-top: -0.7rem;
+  }
+}

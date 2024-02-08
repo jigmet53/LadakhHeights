@@ -1,0 +1,43 @@
+.navbarBody{
+    /* background-color: #c2c2c2; */
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+}
+
+.navbarItems{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    padding-left: 1vw;
+    font-family: sans-serif;
+    padding-right: 1vw;
+    font-size: 12px;
+}
+
+.allItemsNavbar{
+    /* margin-left: 2vw; */
+    display: flex;
+    /* margin-top: 2%; */
+    /* margin-bottom: 2%; */
+    color: rgba(173,133,77,1);
+
+
+}
+
+.navbarLogo{
+    padding-left: 2vw;
+    padding-top: 1.3vw;
+    font-style: italic;
+    padding-right: 2vw;
+    color: rgba(173,133,77,1);;
+}
+
+.navbarLogin{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+   padding-left: 2vw;
+   padding-right: 2vw;
+}
