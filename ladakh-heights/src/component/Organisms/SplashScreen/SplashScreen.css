@@ -1,0 +1,21 @@
+/* Splash.css */
+.splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Set your desired background color */
+  }
+
+  .splashHeading{
+    color: white;
+
+  }
+
+  .splashSubHeading{
+    color: white;
+  }
+  
+  /* Add more styling as needed */
+  

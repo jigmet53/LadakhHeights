@@ -1,0 +1,27 @@
+.sliderBody {
+    /* Add any additional styles for the slider container */
+  }
+  
+
+  
+  .packageCardBody {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column; /* Adjust if you want a vertical layout */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000; /* 2px solid black border */
+   
+    /* margin: 0 10px; Adjust the margin to add space between cards */
+  }
+  
+  .packageImage {
+    border-radius: 16px;
+
+    height: 20vw;
+    width: 100%;
+  }
+  
+  .slick-list {margin: 0 -15px;}
+.slick-slide>div {padding: 0 15px;}
